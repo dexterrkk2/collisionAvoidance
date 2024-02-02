@@ -14,7 +14,7 @@ public class Face : Align
         {
             return targetAngle;
         }
-        targetAngle= Mathf.Atan2(-direction.x, direction.z);
+        targetAngle= Mathf.Atan2(direction.x, -direction.z);
         targetAngle *= Mathf.Rad2Deg;
         return targetAngle;
     }
