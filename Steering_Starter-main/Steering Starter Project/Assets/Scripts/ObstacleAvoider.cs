@@ -8,6 +8,8 @@ public class ObstacleAvoider : Kinematic
     public bool flee = false;
     Face mySeekRotateType;
     LookWhereGoing myFleeRotateType;
+
+
     // Start is called before the first frame update
     void Start()
     {

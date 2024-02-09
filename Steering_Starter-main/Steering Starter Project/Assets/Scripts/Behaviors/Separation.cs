@@ -7,9 +7,9 @@ public class Separation : SteeringBehavior
     public Kinematic character;
     float maxAcceleration = 1f;
 
-    public Kinematic[] targets;
+    public List<Kinematic> targets;
     // the threshold to take action
-    float threshold = 5f; // 5
+    float threshold = 20f; // 5
 
     // the constant coefficient of decay for the inverse square law
     float decayCoefficient = 100f;
@@ -22,7 +22,6 @@ public class Separation : SteeringBehavior
         {
             Vector3 direction = character.transform.position - target.transform.position;
             float distance = direction.magnitude;
-
             if (distance < threshold)
             {
                 // calculate the strength of repulsion

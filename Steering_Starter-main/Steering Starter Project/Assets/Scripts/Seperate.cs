@@ -7,7 +7,7 @@ public class Seperate : Kinematic
 {
     Separation myMoveType;
     Align myRotateType;
-    public Kinematic[] targets;
+    public List<Kinematic> targets;
     // Start is called before the first frame update
     void Start()
     {
