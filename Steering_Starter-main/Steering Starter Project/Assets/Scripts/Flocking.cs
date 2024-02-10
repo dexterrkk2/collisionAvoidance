@@ -38,22 +38,22 @@ public class Flocking : Kinematic
         SeperationWeight.Behavior = seperation;
         SeperationWeight.weight = weight1;
         myMoveType.behaviours.Add(SeperationWeight);
-        Cohesion cohesion = new Cohesion();
+        /*Cohesion cohesion = new Cohesion();
         cohesion.targets = targets;
         cohesion.character = this;
         BehaviourandWeight cohesioWeighted = new BehaviourandWeight();
         cohesioWeighted.Behavior = cohesion;
         cohesioWeighted.weight = weight2;
-        myMoveType.behaviours.Add(cohesioWeighted);
-        Debug.Log("Weights Setup");
-        Align align = new Align();
+        myMoveType.behaviours.Add(cohesioWeighted);*/
+        /*Debug.Log("Weights Setup");
+        Arrive align = new Arrive();
         align.target = myTarget;
         align.character = this;
         BehaviourandWeight AlighnWeight = new BehaviourandWeight();
         AlighnWeight.Behavior = align;
         AlighnWeight.weight = weight3;
         myMoveType.behaviours.Add(AlighnWeight);
-        Pursue seek = new Pursue();
+       */ Seek seek = new Seek();
         seek.target = myTarget;
         seek.character = this;
         BehaviourandWeight SeekWeight = new BehaviourandWeight();

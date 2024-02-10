@@ -156,10 +156,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -492,10 +492,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -631,10 +631,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -770,10 +770,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -1089,10 +1089,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -1397,10 +1397,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -1536,10 +1536,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -1675,10 +1675,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
@@ -1814,10 +1814,10 @@ MonoBehaviour:
   maxSpeed: 50
   maxAngularVelocity: 45
   myTarget: {fileID: 145367889}
-  weight1: 5
-  weight2: 3
+  weight1: 3
+  weight2: 1
   weight3: 1
-  weight4: 3
+  weight4: 1
   flee: 0
   targets:
   - {fileID: 491493529}
